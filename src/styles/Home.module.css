@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+.body {
+  min-height: 100vh;
+  min-width: 1024px;
+  width: 100%;
+  height: 900px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom right, #4502d9, #000000);
+  color: white;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+.search_sticky {
+  position: sticky;
+  padding-top: 0px;
+  margin: 0 auto 0 auto;
+}
+
+.input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #e5e5e5;
+  width: 414px;
+  height: 46px;
+  background-image: url("../assets/search.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: 15px;
+  padding: 1% 6%;
+}
+
+.logo {
+  width: 27px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 7px;
+}
+
+#navbar {
+  position: sticky;
+  top: 1px;
+}
+
+#logo_title {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.search_title_container {
+  margin: 93px auto 0;
+  padding: 0px 0px 17px;
+  position: sticky;
+  align-items: center;
+}
+
+.search_title {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.school_wrapper {
+  overflow: auto;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 0px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.school_wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.school_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+}
+
+.school {
+  border-radius: 20px;
+  margin: 8px 0;
+  background-color: #282e3c;
+  padding: 11px 12px;
+  display: flex;
+  width: 414px;
+  height: 76px;
+  align-items: center;
+}
+
+.school:hover {
+  background-color: #161921;
+}
+
+.school_initial {
+  background: linear-gradient(to bottom right, #0224d9, #04002b);
+  font-size: 32px;
+  font-weight: 600;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 12px;
+}
+
+.school_container {
+  margin: 0;
+  width: 310px;
+  height: fit-content;
+}
+
+.school_name {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.school_county {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+}
